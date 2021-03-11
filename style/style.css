@@ -387,3 +387,88 @@ a {
       grid-template-rows: auto repeat(3, 9rem);
     }
   } 
+
+  .activite {
+    display: grid;
+    column-gap: 2rem;
+    margin: 4rem 0;
+  }
+  .activiteTitle {
+    grid-column: 1/-1;
+  }
+  .activiteCard {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+  }
+  .activiteCard:hover {
+    transform: scale(1.01);
+  }
+  .activiteCardWrapimg {
+    position: relative;
+    flex: 1;
+  }
+  .activiteCardWrapimgImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .activiteCardTitle {
+    margin: 1.2rem 1.5rem;
+  }
+  
+  @media (min-width: 1100px) {
+    .activite {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    }
+    .activiteCard1 {
+      grid-row: 2/7;
+      grid-column: 1/2;
+    }
+    .activiteCard2 {
+      grid-column: 2/3;
+      grid-row: 2/5;
+    }
+    .activiteCard3 {
+      grid-column: 3/4;
+      grid-row: 2/7;
+    }
+    .activiteCard4 {
+      grid-column: 4/5;
+      grid-row: 2/3;
+    }
+    .activiteCard5 {
+      grid-column: 2/3;
+      grid-row: 6/7;
+    }
+    .activiteCard6 {
+      grid-column: 4/5;
+      grid-row: 4/7;
+    }
+  }
+  @media (max-width: 1100px) {
+    .activite {
+      row-gap: 2rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto 12rem 12rem;
+    }
+  }
+  @media (max-width: 925px) {
+    .activite {
+      row-gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto 12rem 12rem 12rem;
+    }
+  }
+  @media (max-width: 650px) {
+    .activite {
+      row-gap: 2rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+    }
+  }
