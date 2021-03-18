@@ -1,3 +1,4 @@
+# RobertManchon_2_06032021
 **Reservia**
 
 Deuxième projet du parcours "Développeur Front-End" d'OpenClassrooms. L'objectif de ce projet est de transformer une maquette en site web.
@@ -30,6 +31,6 @@ Deuxième projet du parcours "Développeur Front-End" d'OpenClassrooms. L'object
 
 **Note du projet**
 
-* L'intégration de la maquette à été réalisée sur l'éditeur Visual Studio Code [Brackets](https://code.visualstudio.com//) avec les plugins Liveserver.
+* L'intégration de la maquette à été réalisée sur l'éditeur VS Code [Brackets](https://code.visualstudio.com/) avec les plugins Prettier et Live Server.
 * La convention de nommage utilisée est BEM.
 * Le modèle de branche Git est calqué sur Gitflow.
