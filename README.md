@@ -5,12 +5,12 @@ Deuxième projet du parcours "Développeur Front-End" d'OpenClassrooms. L'object
 
 **Cahier des charges**
 
-* Intégrer les deux maquettes fournis par le designer et réaliser en autonomie le site au format tablette.
+* Intégrer les deux maquettes fournies par le designer et réaliser en autonomie le site au format desktop et mobile.
 * L'intégration doit se faire sans framework ou pré-compilateur, uniquement en HTML5 et CSS3.
 * Le champ de recherche est un champ de saisie, dont le texte peut être édité (la fonction de recherche n'est pas fonctionnelle).
 * Choisir les images en fonction de leur esthétique et de leurs poids pour qu'elle ne soit pas trop lourde pour le chargement.
 * Chaque carte d’hébergement ou d’activité doit être cliquable dans son intégralité (les liens sont vides).
-* Les filtres (non-fonctionnel) doivent changer d'apparence au survol.
+* Les filtres (non-fonctionnels) doivent changer d'apparence au survol.
 * Les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 * Le code doit être sémantiquement correct et ne doit contenir aucune erreur au validateur W3C.
 * Le site doit être compatible avec les dernières versions de Chrome et Firefox.
@@ -27,10 +27,17 @@ Deuxième projet du parcours "Développeur Front-End" d'OpenClassrooms. L'object
 * Bleu : #0065FC
 * Bleu clair : #DEEBFF
 * Gris : #F2F2F2
-* Les icons disponibles sur le site [Font Awesome](https://fontawesome.com/).
+* Les icônes disponibles sur le site [Font Awesome](https://fontawesome.com/).
 
 **Note du projet**
 
-* L'intégration de la maquette à été réalisée sur l'éditeur [Brackets](http://brackets.io/) sans plugins.
-* La convention de nommage utilisée est BEM.
-* Le modèle de branche Git est calqué sur Gitflow.
+* L'intégration de la maquette à été réalisée sur l'éditeur VS Code (https://code.visualstudio.com/) avec les plugins Prettier et Live Server.
+
+**Liens**
+
+*[RobertManchon_P2_01_lienGithub](https://github.com/RobertManchon/RobertManchon_2_06032021).
+
+*[RobertManchon_P2_02_lienpageweb](https://robertmanchon.github.io/RobertManchon_2_06032021/).
+
+
+
